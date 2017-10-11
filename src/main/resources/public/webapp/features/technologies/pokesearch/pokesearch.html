@@ -1,0 +1,33 @@
+<div ng-controller="pokemonController as ctrl">
+	<h2>PokeSearch page</h2>
+    <hr>
+    <br>
+    <h4>Search for your pokemon!</h4>
+    <table>
+        <tr>
+            <th></th>
+            <th>Pokemon number: </th>
+            <th><input type="text" ng-model="input[0]" ng-init="input[0] = 1" id = "input_pokemonNumber"></th>
+        </tr>
+    </table>
+    <button ng-click="ctrl.printToConsole(input[0])">list pokemon in console.</button>
+
+    <br>
+
+    <table>
+        <tr>
+            <td>  <img src="{{ctrl.myVar['sprites']['front_default']}}"> </td>
+        </tr>
+        <tr>
+            <td>Name of Pokemon: </td>
+            <td>{{ctrl.myVar['name']}}</td>
+
+        </tr>
+        <tr>
+            <td>Main Type of Pokemon: </td>
+            <td>  {{ctrl.myVar['types'][0]['type']['name']}}</td>
+        </tr>
+    </table>
+
+<!-- /#page-content-wrapper -->
+</div>
