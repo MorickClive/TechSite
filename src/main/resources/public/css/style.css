@@ -20,7 +20,7 @@ nav{
 }
 
 nav .cover{
-  background-image:url("\\res/Background.png");
+  background-image:url("../res/Background.png");
     /* Set a specific height */
     height: 150px; 
 
@@ -83,7 +83,7 @@ nav .cover{
 }
 
 .main-nav .logo {
-  background-image:url("\\res/Icon.png");
+  background-image:url("../res/Icon.png");
   background-repeat:no-repeat;
   background-size:contain;
   background-color: rgba(204, 204, 204, 0.25);
@@ -94,7 +94,7 @@ nav .cover{
 }
 
 .main-nav .logo:hover {
-  background-image:url("\\res/Icon.png");
+  background-image:url("../res/Icon.png");
   background-repeat:no-repeat;
   background-size:contain;
   background-color: rgba(204, 204, 204, 0.50);
