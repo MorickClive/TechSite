@@ -1,0 +1,114 @@
+
+html, body {
+	background: #f1f1f1;
+	margin:0;
+	padding:0;
+    /* Set a specific height */
+    height: 150px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover 150%;
+}
+
+/* start */
+nav{
+	background: #000;
+	margin: 0px 0px 30px 0px;
+}
+
+nav .cover{
+  background-image:url("\\res/Background.png");
+    /* Set a specific height */
+    height: 150px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover 150%;
+    
+    /* content aligns vertical */
+   	display: flex;
+  	align-items: center;
+}
+
+.cover p{
+	padding-left: 80px;
+	color: white;
+	text-align: left;
+  	text-decoration : none;  	
+  	font-weight: bold;
+  	font-size: 3em;
+  	cursor: pointer;
+}
+
+.main-nav {
+  display: -webkit-flex;
+  display: inline-flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.main-nav li{
+	list-style: none;
+}
+
+.main-nav li:first-child {
+  display: inline-flex;
+  padding: 0px 50px 0px 50px;
+}
+.main-nav li:first-child:hover {
+}
+
+.main-nav a {
+  margin: 10px;
+  background: #60B99A;
+  color: white;
+  text-decoration : none;
+  font-weight: bold;
+  font-size: large;
+  display: inline-block;
+  padding: 20px;
+}
+
+.main-nav a:hover {
+  background: #a3d7c4;
+  color: #fff;
+  text-decoration : none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.main-nav .logo {
+  background-image:url("\\res/Icon.png");
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-color: rgba(204, 204, 204, 0.25);
+  border: solid rgba(204, 204, 204, 0.75);
+  border-radius: 15px;
+  width: 75px;
+  height: 75px;
+}
+
+.main-nav .logo:hover {
+  background-image:url("\\res/Icon.png");
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-color: rgba(204, 204, 204, 0.50);
+  border-radius: 15px;
+}
+
+body section {
+	margin: auto auto;
+    width: 80%;
+    border-radius: 3px;
+    padding: 10px;
+    background: #fff;
+	box-shadow: 0 1px 4px rgba(0,0,0,.1);
+}
+body section p {
+    padding: 20px;
+}
