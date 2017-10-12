@@ -1,6 +1,40 @@
 <div ng-controller="techController as ctrl">
 	<h1>{{ctrl.msg}}</h1>
 	
+	<hr>
+	
+	<p>Here is a list of Technologies this site will cover.</p>
+	
+	<table class="grid">
+		<tr>
+			<th>	
+				JSON (see pokemon searcher)
+			</th>
+			<th>✓</th>
+		</tr>
+		<tr>
+			<th>Netflix OSS</th>
+			<th>✕ </th>
+		</tr>
+		<tr>
+			<th>Microservice</th>
+			<th>✓</th>
+		</tr>
+		<tr>
+			<th>Tomcat(embedded)</th>
+			<th>✓</th>
+		</tr>
+		<tr>
+			<th>XSLT (esp. 3.0)</th>
+			<th>✓</th>
+		</tr>
+		<tr>
+			<th>OAuth 2.0</th>
+			<th>✕ </th>
+		</tr>
+	</table>
+	<!--✓✕  -->
+	
 	<ul class="main-nav">
 		<li><a ui-sref="pokesearch">Pokemon Searcher</a></li>
 		<li><a ui-sref="technologies" onclick="alert('not implemented.')">Sample Project</a></li>

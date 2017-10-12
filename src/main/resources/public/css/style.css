@@ -4,7 +4,9 @@ html, body {
 	margin:0;
 	padding:0;
     /* Set a specific height */
-    height: 150px; 
+    height: 150px;
+    /* prevents scroll bar from influencing elements */
+    width: 100vw;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -101,17 +103,45 @@ nav .cover{
   border-radius: 15px;
 }
 
-body section {
+/* The body formatting  */
+.bodymain {
 	margin: auto auto;
     width: 80%;
     border-radius: 3px;
-    padding: 10px;
     background: #fff;
 	box-shadow: 0 1px 4px rgba(0,0,0,.1);
+	text-indent: 50px;
+	/* padding for body content  */
+	padding: 30px;
 }
 
-body section p {
-    padding: 20px;
+.bodymain .center{
+	text-align:center;
 }
 
+.bodymain hr {
+    display: block;
+	width: 50%;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.bodymain h1{
+	font-size: 1.5em;
+}
+
+.bodymain h2{
+	font-size: 1.40em;
+}
+
+.bodymain h3{
+	font-size: 1.30em;
+}
+.bodymain h3{
+	font-size: 1.20em;
+}
+
+table, th, td  .grid{
+    border: 1px solid black;
+}
 /* Morick Clive's CSS template - please request permission before use.  */
