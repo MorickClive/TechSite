@@ -8,4 +8,4 @@ Tech site, or Morick Clive's portfolio
 	
 	Instructions:
 		To run this project, load into an IDE that supports Maven projects and run as a java application,
-		yhis should lead to the hosting of the site locally.
+		this should lead to the hosting of the site locally.
