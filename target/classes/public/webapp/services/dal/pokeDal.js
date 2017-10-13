@@ -7,7 +7,7 @@
     function PokeDal (dal) {
 
         this.getPokemonList = function (num) {
-            return dal.http.GET("http://pokeapi.co/api/v2/pokemon/"+num+"/");
+            return dal.http.GET("https://pokeapi.co/api/v2/pokemon/"+num+"/");
         };
 
         /*this.saveBook = function (bookToSave) {
