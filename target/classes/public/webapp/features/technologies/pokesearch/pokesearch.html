@@ -13,10 +13,14 @@
     <button ng-click="ctrl.printToConsole(input[0])">list pokemon in console.</button>
 
     <br>
-
+	<h2>Pokemon Console:</h2>
+	<div  ng-show="ctrl.loading">
+		<h4>Loading...</h4>
+		<p>(sometimes this can take awhile; F12 can take you to the console to find out more)</p>
+	</div>
     <table>
         <tr>
-            <td>  <img src="{{ctrl.myVar['sprites']['front_default']}}"> </td>
+            <td>  <img src="{{ctrl.myVar['sprites']['front_default']}}"  title="{{ctrl.myVar['name']}}"> </td>
         </tr>
         <tr>
             <td>Name of Pokemon: </td>
