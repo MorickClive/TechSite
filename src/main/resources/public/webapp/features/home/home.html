@@ -1,47 +1,150 @@
 <div ng-controller="HomeController as ctrl">
-	<h1>{{ctrl.msg}}</h1>
+	<!--<h1>{{ctrl.msg}}</h1>-->
 	<h3>Welcome!</h3>
 	<p>Here is my testing website that'll be under continuous
 		development, it demonstrates example technologies through
 		implementation and covers topics that I will cover to better my
 		understanding of back-end development.</p>
-	<p>I apologise for the layout, CSS isn't my priority but something that will develop in extra time as I get a better foundation in front end development in my spare time.</p>
+	<p>I apologise for the layout, CSS isn't my priority but something that will develop in extra time as I get a better foundation in front-end development in my spare time.</p>
 	<p>Should you wish to know more about me and my efforts, please feel free to investigate the <a ui-sref="about" style="font-weight:bold">about page</a> I've set up.</p>
 	<br>
 	<p>
-		Featured Project: <a ui-sref="pokesearch" style="font-weight:bold">Pokemon Search: JSON,
-			AJAX requests</a>
+		Featured Project: <a ui-sref="pokesearch" style="font-weight:bold">Pokemon Search: JSON, AJAX requests</a>
 	</p>
 	<p>
 		Current Projects: <a ui-sref="technologies" style="font-weight:bold">QA Technology Research</a>
 	</p>
+
 	<hr>
 	<p class="center">Entries below are filler used to add content to
 		the page, links are connected to my pre-existing Wordpress site.</p>
-	<hr>
 	<p class="center">Here is a listing of projects I have been
 		involved with, these projects highlight my experience in technical
 		computing. Click on any of the project images to be redirected to a
 		page about that project.</p>
-	<p class="center">
-		<em> This portfolio is continually developing, if there are code
-			samples of projects that interest you please contact me and I'll do
-			my utmost to provide you with samples on request. </em>
-	</p>
 	<hr>
-	<h2 class="center">
-		<span style="text-decoration: underline;">University Projects</span>
-	</h2>
-	<hr>
-	<h4>
-		Dissertation - <a
-			href="https://morickitportfolio.wordpress.com/procedural-materials/" title="https://morickitportfolio.wordpress.com/procedural-materials/">Procedural
-			Materials</a><em>(2016)</em>
-	</h4>
-	<img
-		src="https://morickitportfolio.files.wordpress.com/2016/11/procedural_5.jpg"
-		alt="procedural_5"></a>
-	<p>A project about the creation of procedural textures, including
-		the use of shader(HLSL) effects in computer graphics.</p>
+	<h2 style="text-align:center;"><span style="text-decoration:underline;">University Projects</span></h2>
+	<hr/>
+
+	<div class="projectCard">
+		<header style="padding-top: 10px;">
+			<h4 style="padding-left:30px;">Dissertation -
+				<a href="https://morickitportfolio.wordpress.com/procedural-materials/">Procedural Materials</a>&nbsp;
+				<em>(2016)</em>
+			</h4>
+		</header>
+
+		<div class="projectCardBody">
+			<a href="https://morickitportfolio.wordpress.com/procedural-materials/">
+				<img class="projectCardImg"
+					 src="https://morickitportfolio.files.wordpress.com/2016/11/procedural_5.jpg" alt="procedural_5"
+					 width="346" height="202"></a>
+			<p>A project about the creation of procedural textures, including the use of shader(HLSL) effects in
+				computer graphics.</p>
+			<p style="padding-left:30px;"><em>Created with: C/C++, OpenGL, DirectX and Unreal Engine 4.</em></p>
+		</div>
+	</div>
+
+	<hr/>
+
+	<div class="projectCard">
+		<header style="padding-top: 10px;">
+			<h4 style="padding-left:30px;">Dissertation -
+				<a href="https://morickitportfolio.wordpress.com/directx-11-scene-development/">Scene Development</a>&nbsp;
+				<em>(2016)</em>
+			</h4>
+		</header>
+
+		<div class="projectCardBody">
+			<a href="https://morickitportfolio.wordpress.com/procedural-materials/">
+				<img class="projectCardImg"
+					 src="https://morickitportfolio.files.wordpress.com/2016/11/directx_scene_5.jpg" alt="directx_scene_5"
+					 width="346" height="202"></a>
+			<p>A module in university about the creation and handling of Direct X models and graphical techniques including Shaders (HLSL).</p>
+			<p style="padding-left:30px;"><em>Created with: C/C++ and DirectX (with the use of FreeImage.dll).</em></p>
+		</div>
+	</div>
+
+	<hr/>
+
+	<div class="projectCard">
+		<header style="padding-top: 10px;">
+			<h4 style="padding-left:30px;">OpenGL -
+				<a href="https://morickitportfolio.wordpress.com/opengl-scene-development/">Scene Development</a>
+				<em>(2015)</em>
+			</h4>
+		</header>
+
+		<div class="projectCardBody">
+			<a href="https://morickitportfolio.wordpress.com/opengl-scene-development/">
+				<img class="projectCardImg"
+					 src="https://morickitportfolio.files.wordpress.com/2016/11/opengl.jpg" alt="opengl"
+					 width="346" height="202"></a>
+			<p>A module in university about the creation and handling of OpenGL graphics, including the procedural construction of mesh surfaces and shaders (GLSL).</p>
+			<p style="padding-left:30px;"><em>Created with: C/C++ and OpenGL (with the use of FreeImage.dll).</em></p>
+		</div>
+	</div>
+
+	<hr/>
+
+	<div class="projectCard">
+		<header style="padding-top: 10px;">
+			<h4 style="padding-left:30px;">Team Project -
+				<a href="https://morickitportfolio.wordpress.com/team-project-destructdroid-unreal-engine-4/">DestructDroid</a>&nbsp;
+				<em>Unreal Engine 4, (2014-2015)</em>
+			</h4>
+		</header>
+
+		<div class="projectCardBody">
+			<a href="https://morickitportfolio.wordpress.com/team-project-destructdroid-unreal-engine-4/">
+				<img class="projectCardImg"
+					 src="https://morickitportfolio.files.wordpress.com/2016/11/third_pass_5_3.png" alt="third_pass_5_3"
+					 width="346" height="202"></a>
+			<p>A module in university based around multi-disciplined teams, working together to create a computer game (3rd year university work).</p>
+			<p style="padding-left:30px;"><em>Created with: C/C++, 3DS Max, HLSL(Unreal Blueprint system).</em></p>
+		</div>
+	</div>
+
+	<hr/>
+
+	<div class="projectCard">
+		<header style="padding-top: 10px;">
+			<h4 style="padding-left:30px;">C++ -
+				<a href="https://morickitportfolio.wordpress.com/c-decorator-pattern/">Decorator Pattern</a>&nbsp;
+				<em>(2014-2015)</em>
+			</h4>
+		</header>
+
+		<div class="projectCardBody">
+			<a href="https://morickitportfolio.wordpress.com/c-decorator-pattern/">
+				<img class="projectCardImg"
+					 src="https://morickitportfolio.files.wordpress.com/2016/11/pancake_machine.jpg" alt="Pancake_Machine.jpg"
+					 width="346" height="202"></a>
+			<p>A module in university based around the use of Object-Oriented paradigms, allowing classes to extend functionality and add on new classes in a near recursive fashion.</p>
+			<p style="padding-left:30px;"><em>Created with: C/C++, "Visual studio 2013"</em></p>
+		</div>
+	</div>
+
+	<hr/>
+
+	<div class="projectCard">
+		<header style="padding-top: 10px;">
+			<h4 style="padding-left:30px;">Team Project -
+				<a href="https://morickitportfolio.wordpress.com/team-project-assassins-shadow/">Assassin's Shadow</a>&nbsp;
+				<em>Unreal Engine 4, (2014-2015)</em>
+			</h4>
+		</header>
+
+		<div class="projectCardBody">
+			<a href="https://morickitportfolio.wordpress.com/team-project-assassins-shadow/">
+				<img class="projectCardImg"
+					 src="https://morickitportfolio.files.wordpress.com/2016/11/assassins-shadow_mini.jpg" alt="assassins-shadow_mini.jpg"
+					 width="346" height="202"></a>
+			<p>A module in university based around working to create a computer game with a group of programmers (1st year university work).</p>
+			<p style="padding-left:30px;"><em>Created with: C, GML(Game Maker Language), Adobe Flash, GNU Image Manipulation Program</em></p>
+		</div>
+	</div>
+
+	<hr/>
 </div>
 

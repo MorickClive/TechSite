@@ -1,1 +1,0 @@
-var siteApp = angular.module('mod_morick_site',['ui.router']);
